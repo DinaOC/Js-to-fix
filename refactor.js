@@ -141,8 +141,23 @@ var spanishColor = function(colorName) {
 };
 
 // Put your answer below -------------------------
+var colors ={
+  red: "#ff0000",
+  white: "#ffffff",
+  blue: "#0000ff",
+  green: "#00ff00",
+  black: "#000000",
+};
+
+var spanishColor = function(colorName) {
 
 
+
+
+
+
+
+}
 // -----------------------------------------------
 
 //////////////////////////////////////////////////
@@ -298,7 +313,14 @@ var callLater = function(timeout, callback) {
 
 // Put your answer below -------------------------
 
-
+var callLater2 = function(timeout, callback) {
+if (typeof timeout !== "number") {
+  setTimeout(callback, 1000);
+}
+else {
+  setTimeout(callback, timeout);
+}
+};
 // -----------------------------------------------
 
 //////////////////////////////////////////////////

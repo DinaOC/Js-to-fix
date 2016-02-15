@@ -110,7 +110,7 @@ console.assert(isVowel("E") === true);
  */
 
 function rovarspraket(text){
-    // YOUR CODE HERE
+    
 }
 
 console.assert(rovarspraket("a") === "a")
